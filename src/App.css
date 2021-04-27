@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: auto;
 }
 
 .app__form {
@@ -9,7 +10,7 @@
   z-index: 1;
   background-color: #e9e9eb;
   width: 90%;
-  margin: 20px;
+  margin: auto;
 }
 
 .app__formControl {
@@ -27,4 +28,21 @@
 
 img {
   margin-top: 2px;
+}
+
+@media screen and (min-width: 1300px) {
+  .App {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+  }
+  .app__form {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #e9e9eb;
+    width: 30%;
+    margin: auto;
+  }
 }
